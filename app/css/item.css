@@ -1,0 +1,40 @@
+/*shop-item*/
+.col-md-6.cancel-right-shift {
+  padding-left: 0;
+}
+.product-description img {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.main-photo{
+  margin-top: 60px;
+}
+.three-photos {
+  margin-top: 21px;
+  margin-bottom: 49px;
+  & img {
+    margin-right: 18px;
+  }
+}
+
+.subtitle-right {
+  margin-top: 86px;
+}
+.shift-right {
+  float: right;
+  color: #aeaeae;
+}
+.annotation {
+  line-height: 180%;
+  margin: 25px 0 25px 0;
+}
+
+.buttons.buy.item {
+  margin-left: 0;
+  margin-bottom: 65px;
+}
+
+.how-mach__facilities.items {
+  line-height: 180%;
+  margin-top: 25px;
+}

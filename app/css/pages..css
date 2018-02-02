@@ -1,0 +1,177 @@
+
+/*pages*/
+.pages {
+  background-color: #fbf8f5;
+  font-family: "PTSans Bold";
+  min-height: 914px;
+}
+
+.activ-page {
+  background-image: url(../images/ind-pages.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.body-pages__h2 {
+  font-size: 30px;
+}
+
+.body-pages__back-menu {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 25px;
+  & a.body-pages__link {
+    color: #000000;
+  }
+  & img {
+    margin: 0 14px 5px 14px;
+  }
+  & span {
+    color: #d2cfcd;
+  }
+}
+
+.caption-h1 {
+  margin: 50px 0 50px 0;
+  & img.caption-h1__hatch {
+  padding-top: 35px;
+  }
+}
+.caption-h1__h {
+    font-size: 58px;
+    text-align: center;
+}
+
+.how-mach__used {
+  font-size: 24px;
+}
+
+.how-mach__facilities {
+  list-style-image: url("../images/romb-black.png");
+  line-height: 275%;
+  margin-left: 15px;
+}
+
+.table-trial td {
+  border: 2px solid;
+  width: 270px;
+  height: 42px;
+  &.left {
+  padding-left: 20px;
+  }
+  &.center {
+  text-align: center;
+  }
+}
+
+.content-text.p.sub-table {
+  margin-top: 105px;
+}
+
+.how-mach {
+    margin-bottom: 60px;
+}
+/*end price*/
+/*shop grebanie check buttons*/
+.sqare {
+    display: none; 
+}
+
+.sqare + .means span {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../images/input-icon.png);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 36px;
+  cursor: pointer;
+}
+
+.sqare:checked + .means span {
+  background-image: url(../images/icon-activ.png);
+}
+
+.new-check {
+  margin-bottom: 5px;
+}
+
+.for-check-list {
+  list-style-type: none;
+}
+
+.for-check-list__n {
+  padding-bottom: 10px;
+  &.for-check-list__n:hover{
+    color: #663d15;
+  }
+}
+
+.scene {
+  width: 220px;
+  height: 286px;
+  background-color: #ffffff;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-right: 20px;
+}
+
+.wrap-scene-1 {
+  margin-top: 35px;
+}
+
+.wrap-scene-2 {
+  margin-top: 20px;
+}
+/* dubl buttons*/
+.buttons.buy {
+  width: 187px;
+  height: 43px;
+  background-color: #e5e5e5;
+  & .purchase {
+    background-color: #000000;
+    width: 78px;
+    float: right;
+  }
+  & .purchase:hover {
+    background-color: #663d15;
+  }
+  & .mani {
+    color: #000000;
+  }
+  text-align: center;
+  margin-left: 15px;
+}
+
+.purchase,
+.mani {
+  display: inline-block;
+}
+
+.buttons.show {
+  width: 112px;
+  margin-top: 185px;
+}
+
+.catalog {
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+}
+
+.catalog-pages {
+  margin: 45px 7px 49px 0;
+}
+
+.catalog-pages a {
+  color: #ffffff;
+  
+}
+
+.buttons.catalog.in-these-parts {
+    background-color: #ffffff;
+    & .w-house {
+    color: #000000;
+  }
+}

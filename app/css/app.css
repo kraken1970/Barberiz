@@ -1,0 +1,220 @@
+@import 'normalize.css/normalize.css';
+@import './libs/bootstrap-grid-3.3.1.min.css';
+@import './fonts.css';
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  width: auto\9;
+}
+
+* {
+  font-family:"PTSans Bold" ;
+}
+body {
+  text-transform: uppercase;
+  font-family: "PTSans Bold";
+  color: #ffffff;
+  & ul, form, input, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.main-page {
+  background-image: url(../images/tint.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 1260px;
+}
+
+/*TOP MENU*/ 
+.white-reference {
+  display: inline-block;
+}
+
+.header {
+  margin-bottom: 86px;
+}
+
+.top-menu {
+  font-family: "PTSans Bold";
+  font-size: 16px;
+  background-color: #000000;
+  height: 72px;
+}
+
+.top-menu__nav {
+    vertical-align: middle;
+    line-height: 72px;
+  & a {
+    color: #ffffff;
+  }
+  & .top-menu__nav-list {
+    padding: 0 21px 0 21px;
+  }
+  & .white-reference:hover {
+    background-color: #242424;
+  }
+}
+
+.door {
+  background-image: url(../images/door-icon.png);
+  background-repeat: no-repeat;
+  background-position: 22px center;
+  float: right;
+}
+
+.white-reference.enter {
+  line-height: 72px;
+  padding-left: 47px;
+  color: #ffffff;
+  &.enter:hover {
+     background-color: #242424;
+  background-image: url(../images/door-w-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 29px;
+  }
+}
+/*logo+section gallery*/
+.logotip {
+  text-align: center;
+  margin-top: 57px;
+}
+
+.top-reclama {
+  text-align: center;
+}
+
+.fast-cool-expensive {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "PTSans Bold";
+}
+
+.fast-cool-expensive__text {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "PTSans Bold";
+  line-height: 200%;
+}
+
+.white-rombus {
+  margin-top: 24px;
+  margin-bottom: 34px;
+}
+
+.gallery-submit__block-1 .row,
+.gallery-submit__block-2 .row {
+  background-color: #f9f6f3;
+  height: 430px;
+  font-family: "PTSans Bold";
+  & .news-today {
+    font-family:"PTSans Regular";
+  }
+}
+
+.content-text {
+  line-height: 200%;
+  font-family: "PTSans Bold";
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  &.content-text.p {
+    color: #000000;
+  }
+  & .way-to-us {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+}
+.gallery-submit__block-1 .row {
+  margin-bottom: 34px;
+}
+
+.gallery-submit__h2 {
+  margin: 56px 0 30px 0;
+  font-size: 30px;
+  font-family: "PTSans Bold";
+
+}
+.bent-page {
+  text-align: center;
+}
+
+.photogallery {
+  margin: 22px 0 -28px 10px;
+}
+/* BUTTONS*/
+.buttons {
+  color: #ffffff;
+  background-color: #000000;
+  height: 43px;
+  width: 140px;
+  line-height: 43px;
+  display: inline-block;
+  text-align: center;
+  &.submit {
+    width: 300px;
+  }
+    &.buttons:hover {
+  background-color: #663d15;
+  }
+}
+
+.buttons.back,
+.buttons.map {
+  margin-right: 25px;
+}
+
+.button.news,
+.map-callback {
+  margin-top: 25px;
+}
+.button.back-forward {
+  margin-top: 75px;
+}
+
+.submit {
+  margin-top: 5px;
+}
+/* Input fields*/
+.entry-field {
+  width: 140px;
+  height: 43px;
+  border: 2px solid #000000;
+  padding-left: 17px;
+  margin: 10px 15px 10px 0;
+  &.entry-field:hover,
+   .entry-field:focus,
+   .entry-field:focus::selection {
+    border: 2px solid #663d15;
+  }
+}
+
+.gallery-submit {
+  margin-bottom: 56px;
+}
+
+.basement {
+  height: 189px;
+  background-color: #212121;
+  font-family: "PTSans Bold";
+}
+.content-text.frends,
+.networks,
+.content-text.design {
+  text-align: center;
+}
+
+.basement-content {
+  margin-top: 45px;
+}
+/*main stop*/
